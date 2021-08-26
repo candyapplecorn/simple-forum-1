@@ -11,8 +11,8 @@ function Home() {
         {mockData.map((item, i) => (
           <tr key={i}>
             <td>{item.title}</td>
-            <br/>
-            <br/>
+            <br />
+            <br />
           </tr>
         ))}
       </body>
