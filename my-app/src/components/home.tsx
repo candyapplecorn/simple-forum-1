@@ -4,13 +4,13 @@ import styles from "./home.module.css";
 function Home() {
   return (
     <div className={styles.test}>
-      <header className="Home-header">
+      <header className={styles.header}>
         <h1>Welcome to forumsAreUs</h1>
       </header>
-      <body>
+      <body className={styles.tester}>
         {mockData.map((item, i) => (
           <tr key={i}>
-            <td>{item.title}</td>
+            <button className={styles.board}>{item.title}</button>
             <br />
             <br />
           </tr>

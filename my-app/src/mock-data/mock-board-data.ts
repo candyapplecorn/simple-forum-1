@@ -14,14 +14,14 @@ const mockData: Board[] = [
     id: "3",
   },
   {
-    title: "taxes are hard",
+    title: "Taxes are hard",
     id: "4",
   },
   {
     title:
-      "hollywoo stars. do they know things? what do they know? Let's find out.",
-      id: "5",
-   }
+      "Hollywoo stars. Do they know things? What do they know? Let's find out.",
+    id: "5",
+  },
 ];
 
 export default mockData;
