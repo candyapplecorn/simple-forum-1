@@ -61,7 +61,8 @@ const mockThreadData: Thread[] = [
   },
   {
     subject: "do hollywoo stars know things?",
-    board: "Hollywoo stars. Do they know things? What do they know? Let's find out.",
+    board:
+      "Hollywoo stars. Do they know things? What do they know? Let's find out.",
     createdAt: "8/19/2021",
     content: "well do they?",
     id: "9",
