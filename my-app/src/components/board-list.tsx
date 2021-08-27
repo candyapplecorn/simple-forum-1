@@ -23,7 +23,9 @@ function BoardList(props: BoardListProps) {
     <div className={styles.boardList}>
       {mockData
         .filter((value: Board): boolean => {
-          return query == "" ? true : matchingTitles.includes(value.title.toLowerCase());
+          return query == ""
+            ? true
+            : matchingTitles.includes(value.title.toLowerCase());
         })
         .map((item, i) => (
           <Link to={`${match.url}/${toUrl(item.title)}`}>
