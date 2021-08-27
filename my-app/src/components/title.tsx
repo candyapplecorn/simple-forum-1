@@ -1,14 +1,10 @@
-
-
 function Title() {
   return (
-      <div>
-        <header>
-          <h1>Welcome to forumsAreUs</h1>
-        </header>
-      </div>
-
-
+    <div>
+      <header>
+        <h1>Welcome to forumsAreUs</h1>
+      </header>
+    </div>
   );
 }
 

@@ -12,7 +12,7 @@ function SideMenu() {
       <header>
         <form>
           <h3> Find a board </h3>
-         {handleSubmit}
+          {handleSubmit}
           <input
             type="text"
             value={board}

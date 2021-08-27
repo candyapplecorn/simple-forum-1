@@ -1,37 +1,37 @@
 .homepage {
-    display: flex;
+  display: flex;
   background-color: rgb(179, 204, 255);
   height: 100vmin;
 }
 
 .test {
-flex-grow: 5;
+  flex-grow: 5;
   background-color: rgb(179, 204, 255);
   text-align: center;
-    align: center;
-    margin: auto;
-    width: 50%;
-    border: 1px;
-    padding: 10px;
-    font-family: "Arial Black", Gadget, sans-serif;
-    font-size: 24px;
-    letter-spacing: -1.8px;
-    word-spacing: 2.4px;
-    color: #000000;
-    font-weight: normal;
-    text-decoration: underline;
-    font-style: italic;
-    font-variant: normal;
-    text-transform: none;
-    text-shadow: 5px 2px 2px #1c6ea4;
+  align: center;
+  margin: auto;
+  width: 50%;
+  border: 1px;
+  padding: 10px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 24px;
+  letter-spacing: -1.8px;
+  word-spacing: 2.4px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: underline;
+  font-style: italic;
+  font-variant: normal;
+  text-transform: none;
+  text-shadow: 5px 2px 2px #1c6ea4;
 }
 
 .frontmenu {
-flex-grow: 1;
-padding-left: 10em;
+  flex-grow: 1;
+  padding-left: 10em;
 }
-.hr1{
-border: 5px solid red;
+.hr1 {
+  border: 5px solid red;
 }
 
 .header {
@@ -67,9 +67,7 @@ border: 5px solid red;
   padding-left: 8em;
 }
 
-.boardlist{
-align-text: center;
-padding-right:3em;
+.boardlist {
+  align-text: center;
+  padding-right: 3em;
 }
-
-

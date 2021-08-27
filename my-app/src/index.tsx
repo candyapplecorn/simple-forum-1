@@ -6,9 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import Home from "./components/home";
 import "./css/master-style.css";
 
-
 ReactDOM.render(
-
   <React.StrictMode>
     <Home />
   </React.StrictMode>,

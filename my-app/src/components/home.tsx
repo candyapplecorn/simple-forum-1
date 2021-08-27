@@ -12,7 +12,7 @@ function Home() {
         <BoardList />
       </div>
       <div className={styles.frontmenu}>
-       <SideMenu />
+        <SideMenu />
       </div>
     </div>
   );
