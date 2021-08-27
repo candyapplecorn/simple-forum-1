@@ -9,7 +9,7 @@ function SideMenu() {
   };
   return (
     <div className={styles.menustuff}>
-      <header className={styles.menuheader}>
+      <header>
         <form>
           <h3> Find a board </h3>
          {handleSubmit}

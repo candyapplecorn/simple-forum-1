@@ -9,12 +9,10 @@ function Home() {
     <div className={styles.homepage}>
       <div className={styles.test}>
         <Title />
-        <div className={styles.tester}>
-         <BoardList />
-        </div>
+        <BoardList />
       </div>
       <div className={styles.frontmenu}>
-        <body><SideMenu /></body>
+       <SideMenu />
       </div>
     </div>
   );

@@ -1,5 +1,7 @@
 .menustuff{
  background-color: rgb(179, 204, 255);
+ padding-right: 6em;
+ padding-top: 5em;
 }
 .menuheader{
 align: center;
@@ -15,3 +17,4 @@ align: center;
   text-shadow: 3px 1px 1px #1c6ea4;
   padding-left: 3em;
 }
+
