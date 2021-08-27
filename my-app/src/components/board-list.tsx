@@ -20,7 +20,7 @@ function BoardList(props: BoardListProps) {
   );
 
   return (
-    <div>
+    <div className={styles.boardList}>
       {mockData
         .filter((value: Board): boolean => {
           return query == "" ? true : matchingTitles.includes(value.title.toLowerCase());
