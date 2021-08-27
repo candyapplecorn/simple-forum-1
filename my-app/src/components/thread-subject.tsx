@@ -1,7 +1,8 @@
 import mockData from "../mock-data/mock-board-data";
+import { Link, useParams } from "react-router-dom";
 
 interface ThreadSubjectProps {
-    subject: string;
+  subject: string;
 }
 
 function ThreadSubject(props: ThreadSubjectProps) {
@@ -13,9 +14,7 @@ function ThreadSubject(props: ThreadSubjectProps) {
   return (
     <div>
       <header>
-        <div>
-          {props.subject}
-        </div>
+        <div><h1>{props.subject}</h1></div>
       </header>
     </div>
   );
