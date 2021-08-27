@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import styles from "./sidemenu.module.css";
-function SideMenu() {
+
+interface SideMenuProps {
+  setQuery: (query: string) => void;
+}
+
+function SideMenu(props: SideMenuProps) {
   const [board, findBoard] = useState("");
 
   const handleSubmit = (event: React.FormEvent<HTMLInputElement>) => {
@@ -16,7 +21,11 @@ function SideMenu() {
           <input
             type="text"
             value={board}
-            onChange={(e) => findBoard(e.target.value)}
+            onChange={(e) => {
+              debugger
+              findBoard(e.target.value);
+              props.setQuery(e.target.value)
+            }}
           />
           <input type="submit" value="find that board" />
           <br />
