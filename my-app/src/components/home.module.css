@@ -2,17 +2,18 @@
   display: flex;
   background-color: rgb(179, 204, 255);
   height: 100vmin;
-  padding: 20px;
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1500px;
 }
 
 .test {
   flex-grow: 5;
   background-color: rgb(179, 204, 255);
-  text-align: center;
-  align: center;
+  text-align: left;
+  align: left;
   width: 50%;
   border: 1px;
-  padding: 10px;
   font-family: "Arial Black", Gadget, sans-serif;
   font-size: 24px;
   letter-spacing: -1.8px;
@@ -24,6 +25,7 @@
   font-variant: normal;
   text-transform: none;
   text-shadow: 5px 2px 2px #1c6ea4;
+  padding: 40px;
 }
 
 .frontmenu {
@@ -35,7 +37,7 @@
 }
 
 .header {
-  align: center;
+  align: left;
   margin: auto;
   width: 100%;
   border: 1px;
@@ -62,18 +64,18 @@
 
 .board {
   display: flex;
-  justify-content: center;
-  align-text: center;
-  padding-left: 8em;
+  justify-content: left;
+  align-text: left;
+  /*padding-left: 8em;*/
 }
 
 .boardlist {
-  align-text: center;
+  align-text: left;
   padding-right: 3em;
 }
 
 .threads {
-  padding-left: 16em;
+  /*padding-left: 16em;*/
 }
 
 .boardList {
