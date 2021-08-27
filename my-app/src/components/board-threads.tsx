@@ -1,5 +1,6 @@
 import mockData from "../mock-data/mock-board-data";
 function BoardThreads() {
+
 /*need to create mock data for threads
  */
   return (
@@ -8,7 +9,7 @@ function BoardThreads() {
         <div>
           {mockData.map((item, i) => (
             <tr key={i}>
-              <h1>{item.title}</h1>
+              <button value={item.title}>{item.title}</button>
               <br />
               <hr  />
             </tr>
