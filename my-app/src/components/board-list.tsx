@@ -9,7 +9,7 @@ function BoardList() {
   return (
     <div>
       {mockData.map((item, i) => (
-        <Link to={`${toUrl(item.title)}`}>
+        <Link to={`${match.url}/${toUrl(item.title)}`}>
           <tr key={i}>
             <button className={styles.board}>{item.title}</button>
             <br />

@@ -12,11 +12,9 @@ const RoutesTree = () => {
     <div>
       <Switch>
         <Route path={`${match.path}/:boardTitle`}>
-          This is the path {match.path} {match.url}{" "}
-          {JSON.stringify(match.params)}
           <Board />
         </Route>
-        <Route path={"/"}>
+        <Route path={match.path}>
           <Home />
         </Route>
         ;
