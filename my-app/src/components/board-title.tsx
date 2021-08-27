@@ -4,7 +4,6 @@ function BoardTitle() {
   const params = useParams();
   // @ts-ignore
   const boardTitle = params.boardTitle;
-
   return (
     <div>
       <header>
