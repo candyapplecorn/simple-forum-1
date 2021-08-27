@@ -1,21 +1,17 @@
 import mockData from "../mock-data/mock-board-data";
+import { useParams } from "react-router-dom";
 function BoardTitle() {
-/*need to figure out how to conditionally pull an item
- from the map. would need to pass the string from either
- the pressed button on main page, the entered title from
- the search, or the created board.
- */
+  const params = useParams();
+  // @ts-ignore
+  const boardTitle = params.boardTitle;
+
   return (
     <div>
       <header>
         <div>
-          {mockData.map((item, i) => (
-            <tr key={i}>
-              <h1>{item.title}</h1>
-              <br />
-              <hr/>
-            </tr>
-          ))}
+          <h1>{boardTitle}</h1>
+          <br />
+          <hr />
         </div>
       </header>
     </div>

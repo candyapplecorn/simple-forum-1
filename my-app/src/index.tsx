@@ -1,15 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Home from "./components/home";
 import "./css/master-style.css";
-import Board from "./components/board";
+import { HashRouter as Router } from "react-router-dom";
+import RoutesTree from "./components/routes-tree";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Router>
+      <RoutesTree />
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );

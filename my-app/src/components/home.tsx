@@ -1,4 +1,3 @@
-import mockData from "../mock-data/mock-board-data";
 import styles from "./home.module.css";
 import SideMenu from "./side-menu";
 import Title from "./title";

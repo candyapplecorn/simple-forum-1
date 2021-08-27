@@ -1,7 +1,5 @@
 import mockData from "../mock-data/mock-board-data";
 function ThreadComments() {
-/*need to create mock data for comments
- */
   return (
     <div>
       <header>
