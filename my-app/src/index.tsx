@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Home from "./components/home";
 import "./css/master-style.css";
+import Board from "./components/board";
 
 ReactDOM.render(
   <React.StrictMode>
