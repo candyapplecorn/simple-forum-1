@@ -4,6 +4,7 @@ a simple forum to be powered by a simple json store api
 * Austin
 * Joseph
 * Tamzin
+* Ryan
 
 ## Planning
 * Tamzin: TBD 
