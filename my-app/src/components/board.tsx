@@ -4,7 +4,7 @@ import SideMenu from "./side-menu";
 import Title from "./title";
 import BoardList from "./board-list";
 
-function Home() {
+function Board() {
   return (
     <div className={styles.homepage}>
       <div className={styles.test}>
@@ -18,4 +18,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Board;

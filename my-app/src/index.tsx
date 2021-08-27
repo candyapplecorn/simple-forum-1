@@ -5,10 +5,14 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Home from "./components/home";
 import "./css/master-style.css";
+import { HashRouter as Router } from "react-router-dom";
+import RoutesTree from "./components/routes-tree";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Router>
+      <RoutesTree />
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );
