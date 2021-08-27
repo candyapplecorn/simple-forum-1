@@ -6,13 +6,12 @@ import Board from "./board";
 const RoutesTree = () => {
   let match = useRouteMatch();
 
-
   return (
     <div>
       <Switch>
         <Route path={`${match.path}/:boardTitle`}>
-                <Board />
-              </Route>
+          <Board />
+        </Route>
         <Route path={`${match.path}/:boardTitle`}>
           <Board />
         </Route>

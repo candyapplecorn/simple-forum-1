@@ -11,11 +11,11 @@ describe("search", function () {
   describe("when there are no inputs", function () {
     it("should return nothing", function () {
       const result = search([], "cute cat pictures");
-      expect(result).toEqual([])
+      expect(result).toEqual([]);
     });
     it("should return nothing", function () {
       const result = search(content, "");
-      expect(result).toEqual([])
+      expect(result).toEqual([]);
     });
   });
 
