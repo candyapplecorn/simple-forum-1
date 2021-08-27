@@ -1,7 +1,8 @@
 import mockThreadData from "../mock-data/mock-thread-data";
 import styles from "./home.module.css";
-import { useParams } from "react-router-dom";
+import { Link, useParams, useRouteMatch } from "react-router-dom";
 import { toUrl } from "../lib/url";
+
 function BoardThreads() {
   let match = useRouteMatch();
   const params = useParams();
