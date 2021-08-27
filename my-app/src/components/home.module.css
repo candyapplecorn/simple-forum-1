@@ -2,6 +2,7 @@
   display: flex;
   background-color: rgb(179, 204, 255);
   height: 100vmin;
+  padding: 20px;
 }
 
 .test {
@@ -9,7 +10,6 @@
   background-color: rgb(179, 204, 255);
   text-align: center;
   align: center;
-  margin: auto;
   width: 50%;
   border: 1px;
   padding: 10px;
