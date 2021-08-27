@@ -28,7 +28,7 @@ function ThreadComments(props: ThreadCommentsProps) {
       <header>
         <div className={styles.threads}>
         {replys.map((reply: Reply) => {
-            return (<div>jiojiojo</div>)
+            return (<p>{reply.content}</p>)
         })}
         </div>
       </header>
