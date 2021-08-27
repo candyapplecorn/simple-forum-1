@@ -1,16 +1,23 @@
 .homepage {
-display: grid;
+    display: flex;
   grid-template-columns: auto auto auto auto;
+  background-color: rgb(179, 204, 255);
 }
 
 .test {
+flex-grow: 4;
   background-color: rgb(179, 204, 255);
+}
+
+.frontmenu {
+flex-grow: 1;
+padding-left: 10em;
 }
 
 .header {
   align: center;
   margin: auto;
-  width: 50%;
+  width: 100%;
   border: 1px solid red;
   padding: 10px;
   font-family: "Arial Black", Gadget, sans-serif;
@@ -29,7 +36,7 @@ display: grid;
 .tester {
   background-color: rgba(28, 110, 164, 0.28);
   margin: auto;
-  width: 50%;
+  width: 100%;
   border: 1px solid green;
   padding: 10px;
 }
@@ -40,5 +47,4 @@ display: grid;
   align-items: center;
 }
 
-.frontmenu {
-}
+

@@ -11,7 +11,7 @@ function SideMenu() {
     <div className={styles.menustuff}>
       <header className={styles.menuheader}>
         <form>
-          <h1> Find a board </h1>
+          <h3> Find a board </h3>
          {handleSubmit}
           <input
             type="text"
