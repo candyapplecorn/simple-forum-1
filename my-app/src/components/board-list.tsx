@@ -6,7 +6,7 @@ function BoardList() {
   return (
 
 
-        <div className={styles.boardlist}>
+        <div>
           {mockData.map((item, i) => (
             <tr key={i}>
               <button className={styles.board}>{item.title}</button>
