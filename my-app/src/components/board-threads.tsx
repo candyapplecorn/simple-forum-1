@@ -1,19 +1,29 @@
-import mockData from "../mock-data/mock-board-data";
+import mockThreadData from "../mock-data/mock-thread-data";
 import styles from "./home.module.css";
+import { useParams } from "react-router-dom";
+import { toUrl } from "../lib/url";
 function BoardThreads() {
-  /*need to create mock data for threads
-   */
+ const params = useParams();
+  // @ts-ignore
+  const boardTitle = params.boardTitle;
+  console.log(boardTitle);
   return (
     <div>
       <header>
         <div className={styles.threads}>
-          {mockData.map((item, i) => (
-            <tr key={i}>
-              <button value={item.title}>{item.title}</button>
-              <br />
-              <hr />
-            </tr>
-          ))}
+         {mockThreadData.filter(thread => {
+         console.log(JSON.stringify(thread))
+         console.log(JSON.stringify(boardTitle))
+
+         return toUrl(thread.board).includes(toUrl(boardTitle))
+         } ).map(filteredThread => (
+         <tr>
+                 <button value={filteredThread.subject}>{filteredThread.subject}</button>
+                  <br />
+                  <hr />
+                  </tr>
+              ))}
+
         </div>
       </header>
     </div>
