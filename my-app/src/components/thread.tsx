@@ -8,7 +8,7 @@ function Board() {
   return (
     <div className={styles.homepage}>
       <div className={styles.test}>
-        <ThreadSubject  />
+        <ThreadSubject />
         <ThreadText />
         <ThreadComments />
       </div>

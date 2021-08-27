@@ -1,6 +1,6 @@
 import mockData from "../mock-data/mock-board-data";
 function BoardTitle() {
-/*need to figure out how to conditionally pull an item
+  /*need to figure out how to conditionally pull an item
  from the map. would need to pass the string from either
  the pressed button on main page, the entered title from
  the search, or the created board.
@@ -13,7 +13,7 @@ function BoardTitle() {
             <tr key={i}>
               <h1>{item.title}</h1>
               <br />
-              <hr/>
+              <hr />
             </tr>
           ))}
         </div>
