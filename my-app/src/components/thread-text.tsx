@@ -1,4 +1,7 @@
-import mockData from "../mock-data/mock-board-data";
+import mockThreadData from "../mock-data/mock-thread-data";
+import { useParams } from "react-router-dom";
+import { toUrl } from "../lib/url";
+
 function ThreadText() {
   /*need to figure out how to conditionally pull an item
  from the map. would need to pass the string from either

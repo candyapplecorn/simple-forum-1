@@ -4,7 +4,7 @@ import ThreadSubject from "./thread-subject";
 import ThreadComments from "./thread-comments";
 import ThreadText from "./thread-text";
 
-function Board() {
+function Thread() {
   return (
     <div className={styles.homepage}>
       <div className={styles.test}>
@@ -16,4 +16,4 @@ function Board() {
   );
 }
 
-export default Board;
+export default Thread;
