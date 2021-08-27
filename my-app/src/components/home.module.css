@@ -1,37 +1,44 @@
-.test {
-  background-color: rgb(179,204,255);
+.homepage {
+display: grid;
+  grid-template-columns: auto auto auto auto;
 }
 
-.header{
-align: center;
- margin: auto;
-   width: 50%;
-   border: 1px solid red;
-   padding: 10px;
-   font-family: "Arial Black", Gadget, sans-serif;
-   font-size: 24px;
-   letter-spacing: -1.8px;
-   word-spacing: 2.4px;
-   color: #000000;
-   font-weight: normal;
-   text-decoration: underline;
-   font-style: italic;
-   font-variant: normal;
-   text-transform: none;
-   text-shadow: 5px 2px 2px #1C6EA4;
-   padding-left: 3em;
+.test {
+  background-color: rgb(179, 204, 255);
+}
+
+.header {
+  align: center;
+  margin: auto;
+  width: 50%;
+  border: 1px solid red;
+  padding: 10px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 24px;
+  letter-spacing: -1.8px;
+  word-spacing: 2.4px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: underline;
+  font-style: italic;
+  font-variant: normal;
+  text-transform: none;
+  text-shadow: 5px 2px 2px #1c6ea4;
 }
 
 .tester {
-  background-color: rgba(28,110,164,0.28);
+  background-color: rgba(28, 110, 164, 0.28);
   margin: auto;
-    width: 50%;
-    border: 1px solid green;
-    padding: 10px;
+  width: 50%;
+  border: 1px solid green;
+  padding: 10px;
 }
 
-.board{
-display: flex;
+.board {
+  display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.frontmenu {
 }
